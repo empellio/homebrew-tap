@@ -5,15 +5,15 @@ class Oxmgr < Formula
 
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/Vladimir-Urik/OxMgr/releases/download/v0.1.3/oxmgr-v0.1.3-aarch64-apple-darwin.tar.gz"
-      sha256 "7770fdd5e84460812f273ea6c222424422bc7db3c7ba639873c2e8d7e6df1a2d"
+      url "https://github.com/Vladimir-Urik/OxMgr/releases/download/v0.1.4/oxmgr-v0.1.4-aarch64-apple-darwin.tar.gz"
+      sha256 "16f58574a57e7d27df8a2741d8ba695808f05df37e85f32dc1824ef442435431"
     else
-      url "https://github.com/Vladimir-Urik/OxMgr/releases/download/v0.1.3/oxmgr-v0.1.3-x86_64-apple-darwin.tar.gz"
-      sha256 "0a5012b9278cb3cf188ad1c1dd3b569d6a5a688dfec75da7bafee24ceef84f61"
+      url "https://github.com/Vladimir-Urik/OxMgr/releases/download/v0.1.4/oxmgr-v0.1.4-x86_64-apple-darwin.tar.gz"
+      sha256 "026b0a09b328d8b413dbae67eb92c490ea31f8d279a5f0892d9340e9c07bf28f"
     end
   elsif OS.linux?
-    url "https://github.com/Vladimir-Urik/OxMgr/releases/download/v0.1.3/oxmgr-v0.1.3-x86_64-unknown-linux-gnu.tar.gz"
-    sha256 "bc899ace02edd2b9f47f4ed74167848c2abe916df65f7660f57c5f8677a17335"
+    url "https://github.com/Vladimir-Urik/OxMgr/releases/download/v0.1.4/oxmgr-v0.1.4-x86_64-unknown-linux-gnu.tar.gz"
+    sha256 "bb0f352440de39c20adc5a5d47375b0ecd722183e37459ccbb9f17a58ed721ae"
   end
 
   def install
